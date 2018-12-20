@@ -1,0 +1,31 @@
+{
+  "name": "mail-bot",
+  "version": "1.0.0",
+  "description": "A bot to send mail to clients for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirononame/mail-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "mail"
+  ],
+  "author": "Kirononame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirononame/mail-bot/issues"
+  },
+  "homepage": "https://github.com/Kirononame/mail-bot#readme",
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "bufferutil": "*",
+    "discord.js": "*",
+    "erlpack": "github:discordapp/erlpack",
+    "nodemailer": "*",
+    "zlib-sync": "*"
+  }
+}
